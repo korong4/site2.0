@@ -97,6 +97,17 @@ nav ul li a {
     transition: transform 0.3s ease-in-out;
 }
 
+.intro-page .img-final{
+    width: 500px;
+    position: relative;
+    top: -320px;
+    left: 900px;
+    overflow: hidden;
+    display: flex;
+    border-radius: 35px;
+    transition: transform 0.3s ease-in-out;
+}
+
 .obje-page .main-content {
     display: flex;
     flex-direction: row-reverse;
@@ -192,7 +203,9 @@ header {
     }
 
     .intro-page .img-principal,
-    .obje-page .img-principal {
+    .obje-page .img-principal,
+    .intro-page .img-final,
+    .obje-page .img-final {
         position: relative;
         top: 0;
         left: 0;
@@ -236,7 +249,9 @@ header {
     }
 
     .intro-page .img-principal,
-    .obje-page .img-principal {
+    .obje-page .img-principal,
+    .intro-page .img-final,
+    .obje-page .img-final {
         width: 85%;
         max-width: 260px;
     }
