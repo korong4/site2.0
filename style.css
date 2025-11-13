@@ -16,6 +16,14 @@ header {
   overflow: hidden;
 }
 
+.rodape{
+    background-color: #2b080d;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    padding: 15px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -86,27 +94,31 @@ nav ul li a {
     line-height: 1.7;
 }
 
-.intro-page .img-principal {
+.intro-page .img-final{
     width: 400px;
+    weight: auto;
     position: relative;
-    top: -400px;
-    left: 1000px;
+    top: -300px;
+    left: 1350px;
     overflow: hidden;
     display: flex;
     border-radius: 35px;
     transition: transform 0.3s ease-in-out;
 }
 
-.intro-page .img-final{
-    width: 500px;
-    position: relative;
-    top: -320px;
-    left: 900px;
-    overflow: hidden;
-    display: flex;
+.intro-page .img-principal{
+    width: 400px;
+    weight: auto;
     border-radius: 35px;
-    transition: transform 0.3s ease-in-out;
+    position: relative;
+    left: 1350px;
+    top: -300px; 
+    display: flex;
+    overflow: hidden;
+
+    
 }
+
 
 .obje-page .main-content {
     display: flex;
@@ -205,7 +217,8 @@ header {
     .intro-page .img-principal,
     .obje-page .img-principal,
     .intro-page .img-final,
-    .obje-page .img-final {
+    .obje-page .img-final,
+    .obje-page .img-obj{
         position: relative;
         top: 0;
         left: 0;
