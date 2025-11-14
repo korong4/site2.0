@@ -112,9 +112,9 @@ nav ul li a {
 
 .intro-page .img-metodo{
     width: 400px;
-    position: relative;
-    top: -300px;
-    left: 1000px;
+    position: fixed;
+    top: 100px;
+    right: 200px;
     overflow: hidden;
     display: flex;
     border-radius: 35px;
@@ -123,9 +123,9 @@ nav ul li a {
 
 .intro-page .img-principal {
     width: 400px;
-    position: relative;
-    top: -400px;
-    left: 1000px;
+    position: fixed;
+    top: 100px;
+    right: 200px;
     overflow: hidden;
     display: flex;
     border-radius: 35px;
@@ -134,9 +134,9 @@ nav ul li a {
 
 .intro-page .img-final{
     width: 500px;
-    position: relative;
-    top: -320px;
-    left: 900px;
+    position: fixed;
+    top: 100px;
+    right: 200px;
     overflow: hidden;
     display: flex;
     border-radius: 35px;
@@ -248,14 +248,12 @@ header {
     .intro-page .img-final,
     .obje-page .img-final ,
     .intro-page .img-metodo{
+        width: 100%; 
+        max-width: 500px;
         position: relative;
-        top: 0;
-        left: 0;
-        width: 80%;
-        max-width: 320px;
-        margin: 25px auto 0 auto;
-        border-radius: 25px;
-        display: block;
+        margin: 20px auto; 
+        border-radius: 35px;
+        transition: transform 0.3s ease-in-out;
     }
 
     .obje-page .main-content {
