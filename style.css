@@ -249,11 +249,15 @@ header {
     .obje-page .img-final ,
     .intro-page .img-metodo{
         width: 100%; 
+        height: auto;
         max-width: 500px;
-        position: relative;
         margin: 20px auto; 
         border-radius: 35px;
         transition: transform 0.3s ease-in-out;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        position: static;
     }
 
     .obje-page .main-content {
@@ -293,6 +297,7 @@ header {
     .obje-page .img-principal,
     .intro-page .img-final,
     .obje-page .img-final {
+        text-align: center;
         width: 85%;
         max-width: 260px;
     }
